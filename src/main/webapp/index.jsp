@@ -13,15 +13,17 @@
     </head>
     <body>
         <h1>My TA labs</h1>
-        <p>This is a paragraph</p>
+        <p>history labs</p>
         
         <form actions = "lab_1.jsp"> 
             
-            <input type = "submit" value = "lab_1">
+            <p>
+            <a 
+                href="lab_1.jsp">lab_1
+            </a>
+            </p>
             
         </form>
-        
-        <p><a href="lab_1.jsp">alternative variant</a></p>
         
     </body>
 </html>
