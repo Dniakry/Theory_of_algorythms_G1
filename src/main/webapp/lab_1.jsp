@@ -25,7 +25,7 @@
         %>
         
         <p>
-            <%=x%>
+            8mod3<%=x%>
         </p>
         
         <a href="index.jsp">Home</a>
