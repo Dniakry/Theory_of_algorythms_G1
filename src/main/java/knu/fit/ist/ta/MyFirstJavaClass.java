@@ -11,37 +11,37 @@ package knu.fit.ist.ta;
  */
 public class MyFirstJavaClass {
 
-    private int myint;
-    private static int staticinit;
+    private double mydouble;
+    private static double staticinit;
     
      public MyFirstJavaClass() {
     }
 
-    public MyFirstJavaClass(int myint) {
-        this.myint = myint;
+    public MyFirstJavaClass(double mydouble) {
+        this.mydouble = mydouble;
     }
      
      
     
-    public static int getStaticinit() {
+    public static double getStaticinit() {
         return staticinit;
     }
 
-    public static void setStaticinit(int aStaticinit) {
+    public static void setStaticinit(double aStaticinit) {
         staticinit = aStaticinit;
     }
 
-    public int getMyint() {
-        return myint;
+    public double getMydouble() {
+        return mydouble;
     }
 
-    public void setMyint(int myint) {
-        this.myint = myint;
+    public void setMydouble(double mydouble) {
+        this.mydouble = mydouble;
     }
 
     @Override
     public String toString() {
-        return "MyFirstJavaClass{" + "myint=" + myint + '}';
+        return "MyFirstJavaClass{" + "myfloat=" + mydouble + '}';
     }
     
     public static String toStringStatic() {

@@ -15,18 +15,24 @@
     <body>
         <h1>laba_1</h1>
         
-        <%! MyFirstJavaClass fDD =  new MyFirstJavaClass(5);%>
+        <%! MyFirstJavaClass fDD =  new MyFirstJavaClass(5.0);%>
+        <%double x = fDD.getMydouble();%>
+        <p>x = <%=x%></p>
         <%
-           int x = fDD.getMyint();
+        x = fDD.getMydouble();
           
-           x += 3;
-           x %= 3;
+           x += 10;
+           
+           x %= 5;
            
         %>
         
         
         <p>
-            8mod3<%=x%>
+            x + 10 = 15
+            <p>x % 5 = 
+            <%=x%>
+            </p>
         </p>
         
         <a href="index.jsp">Home</a>
