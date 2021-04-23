@@ -18,7 +18,7 @@ public class SimpleApp {
        
        System.out.println(fDD.toString());
        
-       MyFirstJavaClass.setStaticinit(10);
+        MyFirstJavaClass.setStaticinit(10);
        
         System.out.println(MyFirstJavaClass.toStringStatic());
        
