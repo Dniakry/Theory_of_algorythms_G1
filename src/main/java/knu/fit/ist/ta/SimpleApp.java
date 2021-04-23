@@ -12,17 +12,17 @@ package knu.fit.ist.ta;
 public class SimpleApp {
     
     
-//    public static void main(String[] args){
-//        MyFirstJavaClass fDD =  new MyFirstJavaClass(5);
-//        
-//        
-//        System.out.println(fDD.toString());
-//        
-//        MyFirstJavaClass.setStaticinit(10);
-//        
-//        System.out.println(MyFirstJavaClass.toStringStatic());
-//        
-//} 
+       public static void main(String[] args){
+       MyFirstJavaClass fDD =  new MyFirstJavaClass(5);
+       
+       
+       System.out.println(fDD.toString());
+       
+       MyFirstJavaClass.setStaticinit(10);
+       
+        System.out.println(MyFirstJavaClass.toStringStatic());
+       
+} 
     
     
     
