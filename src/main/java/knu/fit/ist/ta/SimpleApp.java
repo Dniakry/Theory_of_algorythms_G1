@@ -21,6 +21,17 @@ public class SimpleApp {
         MyFirstJavaClass.setStaticinit(10);
        
         System.out.println(MyFirstJavaClass.toStringStatic());
+        
+//        DecimalFormat df = new DecimalFormat("###.###");
+//        System.out.println(df.format(PI));
+        
+        float f1 = 2.035678f;
+        
+        float f2 = 2.035678f;
+        
+           System.out.println (Math.abs(f1 - f2)<= 0.01f);
+        
+        
        
 } 
     

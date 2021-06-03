@@ -27,7 +27,7 @@
             <button>
             <p>
             <a 
-                href="lab_2.jsp">lab_2
+                href="lab_2form.jsp">lab_2
             </a>
             </p>
             </button>
