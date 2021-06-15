@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import knu.fit.ist.ta.laba_3.Lab3;
 import knu.fit.ist.ta.Lab4.Lab4;
+import knu.fit.ist.ta.Lab5.Lab5_2;
 
 
 @SpringBootTest
@@ -41,4 +42,15 @@ class TaApplicationTests {
         assertEquals(18, lab4.GetUniqueWordsNumber());
         assertEquals("[nis=2, iss=2, ssa=2]", lab4.MostPopularSequences(3, 3));
     }
+    @Test
+    void Laba5Test()
+    {
+        Lab5_2 lab5 = new Lab5_2(20);
+        lab5.InitList();
+        
+        assertEquals(-1, lab5.IndexOf("test"));
+        lab5.SortByStringField();
+        assertEquals(4, lab5.IndexOf("model #12"));
+    }
+
 }
