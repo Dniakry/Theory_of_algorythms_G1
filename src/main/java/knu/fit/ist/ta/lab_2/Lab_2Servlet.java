@@ -32,6 +32,7 @@ public class Lab_2Servlet extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     
+    
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

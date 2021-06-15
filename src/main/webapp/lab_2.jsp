@@ -9,20 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Laba2</title>
+        <title>Laba2</title>   
     </head>
     <body>
         <h3>Laba2</h3>
         <br>
-        <p><%=request.getAttribute("result")%></p>
-        
-        
+        <h1>Результат</h1>
+        <p><%= request.getAttribute("result") %></p>
         <div>
             <form action="lab_2form.jsp">
-                <input type="submit" value="вернутся(ввести ще раз x)">
+                <input type="submit" value="Назад(ввести ще раз k)">
             </form>
         </div>
-        
-        <a href="index.jsp">Home</a>
+        <br>
+        <p><a href="index.jsp">Home</a></p>
     </body>
 </html>

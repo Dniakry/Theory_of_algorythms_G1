@@ -31,6 +31,41 @@
             </a>
             </p>
             </button>
+            <button>
+            <p>
+            <a 
+                href="lab3.jsp">lab_3
+            </a>
+            </p>
+            </button>
+            <button>
+            <p>
+            <a 
+                href="lab4.jsp">lab_4
+            </a>
+            </p>
+            </button>
+            <button>
+            <p>
+            <a 
+                href="lab5.jsp">lab_5
+            </a>
+            </p>
+            </button>
+            <button>
+            <p>
+            <a 
+                href="lab6_7.jsp">lab_6_7
+            </a>
+            </p>
+            </button>
+            <button>
+            <p>
+            <a 
+                href="lab8.jsp">lab_8
+            </a>
+            </p>
+            </button>
         </form>
         
     </body>
