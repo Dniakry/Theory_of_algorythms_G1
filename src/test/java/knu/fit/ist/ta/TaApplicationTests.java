@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import knu.fit.ist.ta.laba_3.Lab3;
 import knu.fit.ist.ta.Lab4.Lab4;
 import knu.fit.ist.ta.Lab5.Lab5_2;
-
+import knu.fit.ist.ta.Lab6_7.Lab6_7_1;
 
 @SpringBootTest
 class TaApplicationTests {
@@ -51,6 +51,12 @@ class TaApplicationTests {
         assertEquals(-1, lab5.IndexOf("test"));
         lab5.SortByStringField();
         assertEquals(4, lab5.IndexOf("model #12"));
+    }
+    @Test
+    void Laba6_7Test()
+    {
+        Lab6_7_1 lab6_7 = new Lab6_7_1(8);
+        assertEquals("10", lab6_7.Calculate());
     }
 
 }
