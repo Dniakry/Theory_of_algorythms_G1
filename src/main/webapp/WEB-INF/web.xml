@@ -4,6 +4,17 @@
         <servlet-name>Lab5Servlet</servlet-name>
         <servlet-class>knu.fit.ist.ta.Lab5.Lab5Servlet</servlet-class>
     </servlet>
+    
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>havrylenko.exam.exam_1.Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/formula</url-pattern>
+    </servlet-mapping>
+    
     <servlet-mapping>
         <servlet-name>Lab5Servlet</servlet-name>
         <url-pattern>/lab5</url-pattern>
